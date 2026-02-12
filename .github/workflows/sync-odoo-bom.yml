@@ -1,0 +1,85 @@
+name: Sync Odoo BOM
+
+on:
+  workflow_dispatch:
+    inputs:
+      sku:
+        description: "SKU du produit"
+        required: true
+        type: string
+      output_filename:
+        description: "Nom du fichier CSV généré"
+        required: false
+        type: string
+        default: "EVO-S V1.0"
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Download sync script from public repo
+        run: |
+          # Télécharger le script depuis le repo public data-sync-actions
+          curl -o sync-odoo.py \
+               https://raw.githubusercontent.com/mekanika-dev/data-sync-actions/main/odoo/sync-odoo.py
+
+          echo "✅ Script téléchargé depuis data-sync-actions"
+
+      - name: Run Odoo BOM sync
+        env:
+          ODOO_URL: ${{ secrets.ODOO_URL }}
+          ODOO_DB: ${{ secrets.ODOO_DB }}
+          ODOO_USERNAME: ${{ secrets.ODOO_USERNAME }}
+          ODOO_API_KEY: ${{ secrets.ODOO_API_KEY }}
+        run: |
+          # Créer le dossier bom s'il n'existe pas
+          mkdir -p bom
+
+          # Déterminer le nom du fichier de sortie (toujours dans bom/)
+          OUTPUT_FILE="bom/${{ github.event.inputs.output_filename }}.csv"
+
+          echo "Fetching BOM for SKU: ${{ github.event.inputs.sku }}"
+          echo "Output file: $OUTPUT_FILE"
+
+          python sync-odoo.py \
+            --reference "${{ github.event.inputs.sku }}" \
+            --output "$OUTPUT_FILE" \
+            --url "$ODOO_URL" \
+            --db "$ODOO_DB" \
+            --username "$ODOO_USERNAME" \
+            --api-key "$ODOO_API_KEY"
+
+      - name: Commit changes
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+
+          # Ajouter les changements
+          git add bom/
+
+          # Commit si changements
+          if ! git diff --staged --quiet; then
+            echo "BOM updated"
+
+            git commit -m "Update of the BOM: ${{ github.event.inputs.output_filename }}
+
+            SKU: ${{ github.event.inputs.sku }}
+            File: ${{ github.event.inputs.output_filename }}.csv
+            Synced at: $(date)"
+
+            git push
+          else
+            echo "✅ Aucun changement détecté"
+          fi
