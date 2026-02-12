@@ -1,0 +1,217 @@
+level,component_reference,component_name,component_quantity,parent_bom_reference,parent_bom_name,has_child_bom
+0,M00653,EVO-M [M0 use],1.00,,,True
+1,M00206,EVO-M - Main Box 1/2,1.00,M00653,EVO-M [M0 use],True
+2,M00148,EVO - Control Unit,1.00,M00206,EVO-M - Main Box 1/2,True
+3,M00218,CNC Evo/Pro - Steel Parts - Control Unit Base,1.00,M00148,EVO - Control Unit,False
+3,M00219,CNC Evo/Pro - Steel Parts - Control Unit Cover,1.00,M00148,EVO - Control Unit,False
+3,M00367,CNC USB Controller Mk3/4,1.00,M00148,EVO - Control Unit,False
+3,M00368,CNC USB Controller license,1.00,M00148,EVO - Control Unit,False
+3,M00663,MicroSD 32GB Samsung Evo+,1.00,M00148,EVO - Control Unit,False
+3,M00750,SMPS 360W 24V 15A (CNC Evo),1.00,M00148,EVO - Control Unit,False
+3,M00853,USB-C 24V to 5V 3A converter,1.00,M00148,EVO - Control Unit,False
+3,M00502,"Ethernet RJ45 female 50cm, panel mount",1.00,M00148,EVO - Control Unit,False
+3,M00542,HDMI (female) panel mount to micro HDMI (male),1.00,M00148,EVO - Control Unit,False
+3,M00852,"USB-A male to A female panel mount, 30cm",3.00,M00148,EVO - Control Unit,False
+3,M01077,"GX12 male 3 pins aux 45cm, panel mount (Probe)",1.00,M00148,EVO - Control Unit,False
+3,M00073,"Axial Fan 24V 60x60mm, panel mount",1.00,M00148,EVO - Control Unit,False
+3,M00514,Fan cover 60mm,1.00,M00148,EVO - Control Unit,False
+3,M00865,Wago 3 connectors,3.00,M00148,EVO - Control Unit,False
+3,M00866,Wago 5 connectors,3.00,M00148,EVO - Control Unit,False
+3,M01071,Rubber foot M4 - Flat with Rivet,4.00,M00148,EVO - Control Unit,False
+3,M00837,TFHC M4x35 Black screw,2.00,M00148,EVO - Control Unit,False
+3,M00536,"GX12 male 2 pins aux 45cm, panel mount (Emergency Button)",1.00,M00148,EVO - Control Unit,False
+3,M01715,ISO 7380 M3x4 Black Screw,24.00,M00148,EVO - Control Unit,False
+3,M00552,Hex spacer M3x30 female/female,2.00,M00148,EVO - Control Unit,False
+3,M00553,Hex spacer M3x8 female/female,6.00,M00148,EVO - Control Unit,False
+3,M00629,Lock Nut DIN985 M4,8.00,M00148,EVO - Control Unit,False
+3,M01697,DIN912 M4x12 Black screw,6.00,M00148,EVO - Control Unit,False
+3,M01693,ISO 7380 M3x10 Black Screw,16.00,M00148,EVO - Control Unit,False
+3,M00739,Raspberry Pi 4B 2G,1.00,M00148,EVO - Control Unit,False
+3,M00984,Female Banana Socket - Tab Termination,1.00,M00148,EVO - Control Unit,False
+3,M00851,USB-A USB-B cable 30cm Elbow type,1.00,M00148,EVO - Control Unit,False
+3,M00107,C14 Panel Mount 10A fuse,1.00,M00148,EVO - Control Unit,False
+3,M00530,Fuse T slow 10A,1.00,M00148,EVO - Control Unit,False
+3,M00744,"Rocker switch DPST, panel mount",1.00,M00148,EVO - Control Unit,False
+3,M00540,"GX12 male 5 pins output 45cm, panel mount (VFD, Laser)",1.00,M00148,EVO - Control Unit,False
+3,M00537,"GX12 male 2 pins aux 45cm, panel mount (Safety Enclosure)",2.00,M00148,EVO - Control Unit,False
+3,M00706,Nylon Cap HP-22,2.00,M00148,EVO - Control Unit,False
+3,M01729,"Dust Filter Mesh (""M""), 7cmx7cmx0.375mm, 0.5mm aperture",1.00,M00148,EVO - Control Unit,False
+3,M00949,Motor Driver 2DM542-N - EVO,4.00,M00148,EVO - Control Unit,False
+3,M00918,"XLR 4 pole female panel M3, Pre-wired 18cm breakout",4.00,M00148,EVO - Control Unit,False
+3,M00559,IDC Adapter PCB & Ribbon - 10-pin - 90°,4.00,M00148,EVO - Control Unit,False
+3,M01070,Insulated Crimp Bootlace Ferrule,4.00,M00148,EVO - Control Unit,False
+3,M00620,EVO - Limit Switches PCB Assembly,1.00,M00148,EVO - Control Unit,True
+4,M00714,PCB Custom for CNC Limit Switches,1.00,M00620,EVO - Limit Switches PCB Assembly,False
+4,M00841,"ALL - Tapped XLR 3 pole female panel, vertical PCB",4.00,M00620,EVO - Limit Switches PCB Assembly,True
+5,M00917,"XLR 3 pole female panel, vertical PCB",4.00,M00841,"ALL - Tapped XLR 3 pole female panel, vertical PCB",False
+4,M00790,Screw 2 Way PCB Terminal Block 5mm Pitch,1.00,M00620,EVO - Limit Switches PCB Assembly,False
+4,M00791,Screwless 4 Way PCB Terminal Block 3.5mm Pitch,1.00,M00620,EVO - Limit Switches PCB Assembly,False
+3,M00407,Coloured Washer M3 - Blue,2.00,M00148,EVO - Control Unit,False
+3,M00408,Coloured Washer M3 - Green,2.00,M00148,EVO - Control Unit,False
+3,M00409,Coloured Washer M3 - Red,2.00,M00148,EVO - Control Unit,False
+3,M00410,Coloured Washer M3 - Yellow,2.00,M00148,EVO - Control Unit,False
+3,M00718,PWM to Analog Voltage Converter 0-10V,1.00,M00148,EVO - Control Unit,False
+2,M00174,EVO - Mechanical Elements Box,1.00,M00206,EVO-M - Main Box 1/2,True
+3,M00834,T8 Lead Screw 250mm,1.00,M00174,EVO - Mechanical Elements Box,False
+3,M00175,EVO - Miscellaneous Components Bag,1.00,M00174,EVO - Mechanical Elements Box,True
+4,M00380,Cable Chain TP15 End Connector (Female),2.00,M00175,EVO - Miscellaneous Components Bag,False
+4,M00381,Cable Chain TP15 End Connector (Male),2.00,M00175,EVO - Miscellaneous Components Bag,False
+4,M00706,Nylon Cap HP-22,2.00,M00175,EVO - Miscellaneous Components Bag,False
+4,M01205,"EVO - Foot M6X40 10PA D30 + Anti slip, Ready-to-Use",4.00,M00175,EVO - Miscellaneous Components Bag,True
+5,M00525,Foot M6X40 10PA - 30mm + Anti slip,4.00,M01205,"EVO - Foot M6X40 10PA D30 + Anti slip, Ready-to-Use",False
+4,M00076,Ball Bearing 608-2RS 8x22x7mm,2.00,M00175,EVO - Miscellaneous Components Bag,False
+4,M00830,Stop Ring M8,2.00,M00175,EVO - Miscellaneous Components Bag,False
+4,M00068,Anti-backlash Nut for T8 Screw,1.00,M00175,EVO - Miscellaneous Components Bag,False
+4,M00517,Flexible Motor Coupler D20L25 - 6.35mm to 8mm,1.00,M00175,EVO - Miscellaneous Components Bag,False
+4,M00389,Cable Tie 100mm x 2.5 mm,13.00,M00175,EVO - Miscellaneous Components Bag,False
+4,M00887,Wood screw 4x25mm,4.00,M00175,EVO - Miscellaneous Components Bag,False
+4,M00075,B-Type Square Nut M6,6.00,M00175,EVO - Miscellaneous Components Bag,False
+4,M00531,"GT2 Pulley 20T, bore 6.35mm, belt width 6mm",3.00,M00175,EVO - Miscellaneous Components Bag,False
+4,M00183,CNC Evo - Steel Parts - Belt Tensioner,6.00,M00175,EVO - Miscellaneous Components Bag,False
+3,M00176,EVO - Mounting Tools Bag,1.00,M00174,EVO - Mechanical Elements Box,True
+4,M00023,Allen Key 2mm,1.00,M00176,EVO - Mounting Tools Bag,False
+4,M00022,"Allen Key 2,5mm",1.00,M00176,EVO - Mounting Tools Bag,False
+4,M00024,Allen Key 3mm,1.00,M00176,EVO - Mounting Tools Bag,False
+4,M00025,Allen Key 4mm,1.00,M00176,EVO - Mounting Tools Bag,False
+4,M00026,Allen Key 5mm,1.00,M00176,EVO - Mounting Tools Bag,False
+4,M00027,Allen Key 6mm,1.00,M00176,EVO - Mounting Tools Bag,False
+4,M00806,Spanner 7mm,1.00,M00176,EVO - Mounting Tools Bag,False
+4,M00807,Spanner 8mm,1.00,M00176,EVO - Mounting Tools Bag,False
+4,M00801,Spanner 10mm,1.00,M00176,EVO - Mounting Tools Bag,False
+4,M01676,EVO - Acrylic Parts - Assembly Gauge,1.00,M00176,EVO - Mounting Tools Bag,True
+5,M00716,"PMMA Sheet 3mm 600x400mm, Light Blue",0.02,M01676,EVO - Acrylic Parts - Assembly Gauge,False
+3,M00142,EVO - Acrylic & Steel Parts Bag,1.00,M00174,EVO - Mechanical Elements Box,True
+4,M00184,CNC Evo - Steel Parts - Cable Chain Support X,1.00,M00142,EVO - Acrylic & Steel Parts Bag,False
+4,M00185,CNC Evo - Steel Parts - Cable Chain Support Y1 Left,1.00,M00142,EVO - Acrylic & Steel Parts Bag,False
+4,M00186,CNC Evo - Steel Parts - Cable Chain Support Y1 Right,1.00,M00142,EVO - Acrylic & Steel Parts Bag,False
+4,M01677,EVO - Acrylic Parts - Bearing Support Z (Closed),2.00,M00142,EVO - Acrylic & Steel Parts Bag,True
+5,M00716,"PMMA Sheet 3mm 600x400mm, Light Blue",0.04,M01677,EVO - Acrylic Parts - Bearing Support Z (Closed),False
+4,M01678,EVO - Acrylic Parts - Bearing Support Z (Open),2.00,M00142,EVO - Acrylic & Steel Parts Bag,True
+5,M00716,"PMMA Sheet 3mm 600x400mm, Light Blue",0.04,M01678,EVO - Acrylic Parts - Bearing Support Z (Open),False
+4,M01679,EVO - Acrylic Parts - Limit Switches Support Y,2.00,M00142,EVO - Acrylic & Steel Parts Bag,True
+5,M00716,"PMMA Sheet 3mm 600x400mm, Light Blue",0.04,M01679,EVO - Acrylic Parts - Limit Switches Support Y,False
+3,M00164,EVO - ISO7380 Black Screw Bag - M3x10,1.00,M00174,EVO - Mechanical Elements Box,True
+4,M01693,ISO 7380 M3x10 Black Screw,8.00,M00164,EVO - ISO7380 Black Screw Bag - M3x10,False
+3,M00151,EVO - DIN912 Black Screw Bag - M4x12,1.00,M00174,EVO - Mechanical Elements Box,True
+4,M01697,DIN912 M4x12 Black screw,17.00,M00151,EVO - DIN912 Black Screw Bag - M4x12,False
+3,M00152,EVO - DIN912 Black Screw Bag - M4x25 + M6x20,1.00,M00174,EVO - Mechanical Elements Box,True
+4,M00451,DIN912 M6x20 Black screw,1.00,M00152,EVO - DIN912 Black Screw Bag - M4x25 + M6x20,False
+4,M01675,DIN912 M4x25 Black screw,1.00,M00152,EVO - DIN912 Black Screw Bag - M4x25 + M6x20,False
+3,M00153,EVO - DIN912 Black Screw Bag - M5x16,1.00,M00174,EVO - Mechanical Elements Box,True
+4,M00437,DIN912 M5x16 Black screw,9.00,M00153,EVO - DIN912 Black Screw Bag - M5x16,False
+3,M00154,EVO - DIN912 Black Screw Bag - M5x35,1.00,M00174,EVO - Mechanical Elements Box,True
+4,M00441,DIN912 M5x35 Black screw,9.00,M00154,EVO - DIN912 Black Screw Bag - M5x35,False
+3,M00155,EVO - DIN912 Black Screw Bag - M5x40,1.00,M00174,EVO - Mechanical Elements Box,True
+4,M00442,DIN912 M5x40 Black screw,4.00,M00155,EVO - DIN912 Black Screw Bag - M5x40,False
+3,M00156,EVO - DIN912 Black Screw Bag - M5x45,1.00,M00174,EVO - Mechanical Elements Box,True
+4,M00443,DIN912 M5x45 Black screw,11.00,M00156,EVO - DIN912 Black Screw Bag - M5x45,False
+3,M00157,EVO - DIN912 Black Screw Bag - M5x85,1.00,M00174,EVO - Mechanical Elements Box,True
+4,M00446,DIN912 M5x85 Black screw,8.00,M00157,EVO - DIN912 Black Screw Bag - M5x85,False
+3,M00158,EVO - DIN912 Black Screw Bag - M6x10,1.00,M00174,EVO - Mechanical Elements Box,True
+4,M01716,DIN912 M6x10 Black screw,13.00,M00158,EVO - DIN912 Black Screw Bag - M6x10,False
+3,M00159,EVO - DIN912 Black Screw Bag - M6x12,1.00,M00174,EVO - Mechanical Elements Box,True
+4,M01718,DIN912 M6x12 Black screw,23.00,M00159,EVO - DIN912 Black Screw Bag - M6x12,False
+3,M00160,EVO - DIN912 Black Screw Bag - M6x16,1.00,M00174,EVO - Mechanical Elements Box,True
+4,M01704,DIN912 M6x16 Black screw,62.00,M00160,EVO - DIN912 Black Screw Bag - M6x16,False
+3,M00177,EVO - DIN934 Nut Bag - M6,1.00,M00174,EVO - Mechanical Elements Box,True
+4,M00703,Nut DIN934 M6,4.00,M00177,EVO - DIN934 Nut Bag - M6,False
+3,M00165,EVO - DIN985 Lock Nut Bag - M4,1.00,M00174,EVO - Mechanical Elements Box,True
+4,M00629,Lock Nut DIN985 M4,6.00,M00165,EVO - DIN985 Lock Nut Bag - M4,False
+3,M00161,EVO - DIN985 Lock Nut Bag - M5,1.00,M00174,EVO - Mechanical Elements Box,True
+4,M00632,Lock Nut DIN985 M5,42.00,M00161,EVO - DIN985 Lock Nut Bag - M5,False
+3,M00162,EVO - I-Type Sliding Nut Bag - M4,1.00,M00174,EVO - Mechanical Elements Box,True
+4,M00554,I-Type Sliding Nut M4,10.00,M00162,EVO - I-Type Sliding Nut Bag - M4,False
+3,M00163,EVO - I-Type Sliding Nut Bag - M6,1.00,M00174,EVO - Mechanical Elements Box,True
+4,M00556,I-Type Sliding Nut M6,63.00,M00163,EVO - I-Type Sliding Nut Bag - M6,False
+3,M00150,EVO - DIN9021 Washer Bag - M6x18,1.00,M00174,EVO - Mechanical Elements Box,True
+4,M01694,DIN9021 Washer M6x18,31.00,M00150,EVO - DIN9021 Washer Bag - M6x18,False
+3,M00149,EVO - DIN125A Washer Bag - M6x12,1.00,M00174,EVO - Mechanical Elements Box,True
+4,M00419,DIN125A M6x12 Washer,10.00,M00149,EVO - DIN125A Washer Bag - M6x12,False
+3,M00170,EVO - Eccentric Spacer Bag - M5x6,1.00,M00174,EVO - Mechanical Elements Box,True
+4,M00481,Eccentric Spacer M5 - 6mm,15.00,M00170,EVO - Eccentric Spacer Bag - M5x6,False
+3,M00171,EVO - Spacer Bag - M5x6,1.00,M00174,EVO - Mechanical Elements Box,True
+4,M00798,Spacer M5x6mm,8.00,M00171,EVO - Spacer Bag - M5x6,False
+3,M00172,EVO - Spacer Bag - M5x9,1.00,M00174,EVO - Mechanical Elements Box,True
+4,M00799,Spacer M5x9mm,8.00,M00172,EVO - Spacer Bag - M5x9,False
+3,M00166,EVO - Spacer Bag - M5x12,1.00,M00174,EVO - Mechanical Elements Box,True
+4,M00793,Spacer M5x12mm,10.00,M00166,EVO - Spacer Bag - M5x12,False
+3,M00167,EVO - Spacer Bag - M5x15,1.00,M00174,EVO - Mechanical Elements Box,True
+4,M00794,Spacer M5x15mm,5.00,M00167,EVO - Spacer Bag - M5x15,False
+3,M00168,EVO - Spacer Bag - M5x19,1.00,M00174,EVO - Mechanical Elements Box,True
+4,M00795,Spacer M5x19mm,8.00,M00168,EVO - Spacer Bag - M5x19,False
+3,M00169,EVO - Spacer Bag - M5x30,1.00,M00174,EVO - Mechanical Elements Box,True
+4,M00796,Spacer M5x30mm,11.00,M00169,EVO - Spacer Bag - M5x30,False
+3,M00173,EVO - Spacer Bag - M6x90,1.00,M00174,EVO - Mechanical Elements Box,True
+4,M00800,Spacer M6x90mm,4.00,M00173,EVO - Spacer Bag - M6x90,False
+3,M00198,EVO - V-Wheels Bag - M5,1.00,M00174,EVO - Mechanical Elements Box,True
+4,M00882,Wheel with Bearings for V-slot Profile - Type B,29.00,M00198,EVO - V-Wheels Bag - M5,False
+3,M00063,Angle Bracket 60 B-Type Groove 8,8.00,M00174,EVO - Mechanical Elements Box,False
+3,M01680,EVO - Acrylic Parts - Protection Plate Z,1.00,M00174,EVO - Mechanical Elements Box,True
+4,M00716,"PMMA Sheet 3mm 600x400mm, Light Blue",0.25,M01680,EVO - Acrylic Parts - Protection Plate Z,False
+2,M00195,EVO - Steel Parts Box,1.00,M00206,EVO-M - Main Box 1/2,True
+3,M00182,CNC Evo - Steel Parts - AMB Interface,2.00,M00195,EVO - Steel Parts Box,False
+3,M00187,CNC Evo - Steel Parts - Foot,4.00,M00195,EVO - Steel Parts Box,False
+3,M00188,CNC Evo - Steel Parts - Gantry,2.00,M00195,EVO - Steel Parts Box,False
+3,M00191,CNC Evo - Steel Parts - X-axis Carrier Back,1.00,M00195,EVO - Steel Parts Box,False
+3,M00192,CNC Evo - Steel Parts - X-axis Carrier Front,1.00,M00195,EVO - Steel Parts Box,False
+3,M00194,CNC Evo - Steel Parts - Z-axis Plate Top,1.00,M00195,EVO - Steel Parts Box,False
+3,M00193,CNC Evo - Steel Parts - Z-axis Plate Bottom,1.00,M00195,EVO - Steel Parts Box,False
+2,M00215,EVO/PRO - Interface Unit,1.00,M00206,EVO-M - Main Box 1/2,True
+3,M00189,CNC Evo/Pro - Steel Parts - Interface Unit Base,1.00,M00215,EVO/PRO - Interface Unit,False
+3,M00190,CNC Evo/Pro - Steel Parts - Interface Unit Cover,1.00,M00215,EVO/PRO - Interface Unit,False
+3,M00011,"7"" LCD Touch Screen 1024x600 TFT",1.00,M00215,EVO/PRO - Interface Unit,False
+3,M00700,Numeric Keypad 34 Keys,1.00,M00215,EVO/PRO - Interface Unit,False
+3,M01715,ISO 7380 M3x4 Black Screw,8.00,M00215,EVO/PRO - Interface Unit,False
+3,M00842,Tooth Lock Washer DIN6798 M6 Type A Black,8.00,M00215,EVO/PRO - Interface Unit,False
+3,M01698,DIN912 M4x16 Black screw,2.00,M00215,EVO/PRO - Interface Unit,False
+3,M01704,DIN912 M6x16 Black screw,2.00,M00215,EVO/PRO - Interface Unit,False
+3,M00543,HDMI Cable Male/Male 1.5m,1.00,M00215,EVO/PRO - Interface Unit,False
+3,M00849,USB-A Micro USB Cable 1.5m,1.00,M00215,EVO/PRO - Interface Unit,False
+3,M01637,INT - Fixation Bag,1.00,M00215,EVO/PRO - Interface Unit,True
+4,M01636,Spacer M6x16,2.00,M01637,INT - Fixation Bag,False
+4,M01694,DIN9021 Washer M6x18,2.00,M01637,INT - Fixation Bag,False
+4,M00556,I-Type Sliding Nut M6,2.00,M01637,INT - Fixation Bag,False
+4,M01748,DIN912 M6x25 Black screw,2.00,M01637,INT - Fixation Bag,False
+3,M00716,"PMMA Sheet 3mm 600x400mm, Light Blue",1.00,M00215,EVO/PRO - Interface Unit,False
+3,M00461,"Disc Magnet Ø 10mm, height 3mm",3.00,M00215,EVO/PRO - Interface Unit,False
+3,M01675,DIN912 M4x25 Black screw,2.00,M00215,EVO/PRO - Interface Unit,False
+3,M01534,Male USB-A to Male USB-C Cable 150cm,1.00,M00215,EVO/PRO - Interface Unit,False
+2,M00204,EVO-M - Electronic Components box,1.00,M00206,EVO-M - Main Box 1/2,True
+3,M00696,ALL - Nema23 Motor,4.00,M00204,EVO-M - Electronic Components box,True
+4,M00697,Nema23 Stepper Motor 5A 6.35mm Shaft,4.00,M00696,ALL - Nema23 Motor,False
+4,M00660,Micro-Fit 3.0 Male Connector Housing,4.00,M00696,ALL - Nema23 Motor,False
+4,M00662,Micro-Fit Male Crimp Terminal Contact,14.00,M00696,ALL - Nema23 Motor,False
+3,M00196,EVO - Mechanical Switch Bag - SPDT-NO/NC,1.00,M00204,EVO-M - Electronic Components box,True
+4,M00651,Mechanical Switch SPDT-NO/NC,4.00,M00196,EVO - Mechanical Switch Bag - SPDT-NO/NC,False
+3,M00482,Emergency Stop Button 1NC,1.00,M00204,EVO-M - Electronic Components box,False
+3,M01078,Touch Probe Z Device (3-pins model),1.00,M00204,EVO-M - Electronic Components box,False
+3,M00007,"Power Cable C13 IEC to CEE 7/4, Schuko, 2m, 10 A, 250 V",1.00,M00204,EVO-M - Electronic Components box,False
+3,M00848,USB Key 2Gb,1.00,M00204,EVO-M - Electronic Components box,False
+3,M00384,ALL - Cable Cover for I-type 6 Profile 330mm,2.00,M00204,EVO-M - Electronic Components box,True
+4,M00383,Cable Cover for I-type 6 Profile (2m),0.34,M00384,ALL - Cable Cover for I-type 6 Profile 330mm,False
+3,M01066,EVO-M - Motor Cables,1.00,M00204,EVO-M - Electronic Components box,True
+4,M00208,EVO-M - BELRAM lot of Motor Cables,1.00,M01066,EVO-M - Motor Cables,True
+5,M00669,"Motor Cable X 330cm, Red (Evo-M)",1.00,M00208,EVO-M - BELRAM lot of Motor Cables,False
+5,M00674,"Motor Cable Y1 180cm, Green (Evo-M/L)",1.00,M00208,EVO-M - BELRAM lot of Motor Cables,False
+5,M00682,"Motor Cable Z 360cm, Blue (Evo-M)",1.00,M00208,EVO-M - BELRAM lot of Motor Cables,False
+5,M00678,"Motor Cable Y2 350cm, Yellow (Evo-M)",1.00,M00208,EVO-M - BELRAM lot of Motor Cables,False
+4,M00977,"Cable Tie 385mm x 4.8 mm, Green",1.00,M01066,EVO-M - Motor Cables,False
+4,M00659,Micro-Fit 3.0 Female Connector Housing,4.00,M01066,EVO-M - Motor Cables,False
+4,M00661,Micro-Fit Female Crimp Terminal Contact,14.00,M01066,EVO-M - Motor Cables,False
+3,M00207,EVO-M - Mechanical Switch Cables,1.00,M00204,EVO-M - Electronic Components box,True
+4,M00647,"Mechanical Switch Cable Y2- 170cm, Yellow (Evo-S/M)",1.00,M00207,EVO-M - Mechanical Switch Cables,False
+4,M00646,"Mechanical Switch Cable Y1- 140cm, Green (Evo-S/M/L)",1.00,M00207,EVO-M - Mechanical Switch Cables,False
+4,M00644,"Mechanical Switch Cable X- 330cm, Red (Evo-M)",1.00,M00207,EVO-M - Mechanical Switch Cables,False
+4,M00649,"Mechanical Switch Cable Z- 370cm, Blue (Evo-M)",1.00,M00207,EVO-M - Mechanical Switch Cables,False
+4,M00977,"Cable Tie 385mm x 4.8 mm, Green",1.00,M00207,EVO-M - Mechanical Switch Cables,False
+3,M00205,EVO-M - Timing Belt Bag - GT2,1.00,M00204,EVO-M - Electronic Components box,True
+4,M00532,GT2 Timing Belt 6mm 1330 mm,2.00,M00205,EVO-M - Timing Belt Bag - GT2,False
+4,M00533,GT2 Timing Belt 6mm 930 mm,1.00,M00205,EVO-M - Timing Belt Bag - GT2,False
+2,M00823,Square Plate - First CNC Test,1.00,M00206,EVO-M - Main Box 1/2,False
+1,M00225,EVO/PRO-M - Structure Box 2/2,1.00,M00653,EVO-M [M0 use],True
+2,M00055,Alu Profile V-3030 (240mm) [1x M6 thread on BOTH sides],2.00,M00225,EVO/PRO-M - Structure Box 2/2,False
+2,M00039,Alu Profile I-6030 (620 mm),2.00,M00225,EVO/PRO-M - Structure Box 2/2,False
+2,M00035,Alu Profile I-6030 (1170 mm),3.00,M00225,EVO/PRO-M - Structure Box 2/2,False
+2,M00057,Alu Profile V-6060 (830 mm) [4x M6 threads on BOTH sides],1.00,M00225,EVO/PRO-M - Structure Box 2/2,False
+2,M00056,Alu Profile V-6060 (1230 mm) [4x M6 threads on BOTH sides],2.00,M00225,EVO/PRO-M - Structure Box 2/2,False
+2,M00374,Cable Chain 900mm (Evo/Pro-S/M/L),2.00,M00225,EVO/PRO-M - Structure Box 2/2,False
