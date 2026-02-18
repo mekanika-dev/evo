@@ -6,6 +6,8 @@
 - [Shop](https://www.mekanika.io/en/store/be/evo/)
 - [Contact](https://www.mekanika.io/contact-us/)
 
+![Evo CNC Milling Machine](https://www.mekanika.io/_next/image?url=https%3A%2F%2Fs3storage-medusa.ams3.digitaloceanspaces.com%2FMekanika-EVO-S-No-Spindle-SHOP-01JXM7G6S62A6109Z31Y3Q5K86.jpg&w=1080&q=90)
+
 ## Repository Structure
 
 - **`bom/`** - Bill of Materials
@@ -19,6 +21,13 @@ All 3D assembly files are made in STEP format and compatible with many CAD softw
 ## Assembly Guide
 
 The assembly guide is available on our [support website](https://support.mekanika.io/products/evo-cnc). If you have feedback or want to raise an issue about a specific assembly step, you can use the feedback buttons available on each step's page.
+
+The design files can also be viewed in web browsers using these links:
+
+- [Evo S](https://a360.co/3XHU1ST)
+- [Evo M](https://a360.co/437BPmZ)
+- [Evo L](https://a360.co/3JG87OL)
+- [Evo Control Unit](https://a360.co/45p6r7A)
 
 ## Community
 
