@@ -1,0 +1,52 @@
+level,component_reference,component_name,component_quantity,parent_bom_reference,parent_bom_name,has_child_bom
+0,M00148,EVO - Control Unit,1.00,,,True
+1,M00218,CNC Evo/Pro - Steel Parts - Control Unit Base,1.00,M00148,EVO - Control Unit,False
+1,M00219,CNC Evo/Pro - Steel Parts - Control Unit Cover,1.00,M00148,EVO - Control Unit,False
+1,M00367,CNC USB Controller Mk3/4,1.00,M00148,EVO - Control Unit,False
+1,M00368,CNC USB Controller license,1.00,M00148,EVO - Control Unit,False
+1,M00663,MicroSD 32GB Samsung Evo+,1.00,M00148,EVO - Control Unit,False
+1,M00750,SMPS 360W 24V 15A (CNC Evo),1.00,M00148,EVO - Control Unit,False
+1,M00853,USB-C 24V to 5V 3A converter,1.00,M00148,EVO - Control Unit,False
+1,M00502,"Ethernet RJ45 female 50cm, panel mount",1.00,M00148,EVO - Control Unit,False
+1,M00542,HDMI (female) panel mount to micro HDMI (male),1.00,M00148,EVO - Control Unit,False
+1,M00852,"USB-A male to A female panel mount, 30cm",3.00,M00148,EVO - Control Unit,False
+1,M01077,"GX12 male 3 pins aux 45cm, panel mount (Probe)",1.00,M00148,EVO - Control Unit,False
+1,M00073,"Axial Fan 24V 60x60mm, panel mount",1.00,M00148,EVO - Control Unit,False
+1,M00514,Fan cover 60mm,1.00,M00148,EVO - Control Unit,False
+1,M00865,Wago 3 connectors,3.00,M00148,EVO - Control Unit,False
+1,M00866,Wago 5 connectors,3.00,M00148,EVO - Control Unit,False
+1,M01071,Rubber foot M4 - Flat with Rivet,4.00,M00148,EVO - Control Unit,False
+1,M00837,TFHC M4x35 Black screw,2.00,M00148,EVO - Control Unit,False
+1,M00536,"GX12 male 2 pins aux 45cm, panel mount (Emergency Button)",1.00,M00148,EVO - Control Unit,False
+1,M01715,ISO 7380 M3x4 Black Screw,24.00,M00148,EVO - Control Unit,False
+1,M00552,Hex spacer M3x30 female/female,2.00,M00148,EVO - Control Unit,False
+1,M00553,Hex spacer M3x8 female/female,6.00,M00148,EVO - Control Unit,False
+1,M00629,Lock Nut DIN985 M4,8.00,M00148,EVO - Control Unit,False
+1,M01697,DIN912 M4x12 Black screw,6.00,M00148,EVO - Control Unit,False
+1,M01693,ISO 7380 M3x10 Black Screw,16.00,M00148,EVO - Control Unit,False
+1,M00739,Raspberry Pi 4B 2G,1.00,M00148,EVO - Control Unit,False
+1,M00984,Female Banana Socket - Tab Termination,1.00,M00148,EVO - Control Unit,False
+1,M00851,USB-A USB-B cable 30cm Elbow type,1.00,M00148,EVO - Control Unit,False
+1,M00107,C14 Panel Mount 10A fuse,1.00,M00148,EVO - Control Unit,False
+1,M00530,Fuse T slow 10A,1.00,M00148,EVO - Control Unit,False
+1,M00744,"Rocker switch DPST, panel mount",1.00,M00148,EVO - Control Unit,False
+1,M00540,"GX12 male 5 pins output 45cm, panel mount (VFD, Laser)",1.00,M00148,EVO - Control Unit,False
+1,M00537,"GX12 male 2 pins aux 45cm, panel mount (Safety Enclosure)",2.00,M00148,EVO - Control Unit,False
+1,M00706,Nylon Cap HP-22,2.00,M00148,EVO - Control Unit,False
+1,M01729,"Dust Filter Mesh (""M""), 7cmx7cmx0.375mm, 0.5mm aperture",1.00,M00148,EVO - Control Unit,False
+1,M01777,Diode Schottky - 40 V 1 A 2-Pin DO-204AL 1N5819,1.00,M00148,EVO - Control Unit,False
+1,M00949,Motor Driver 2DM542-N - EVO,4.00,M00148,EVO - Control Unit,False
+1,M00918,"XLR 4 pole female panel M3, Pre-wired 18cm breakout",4.00,M00148,EVO - Control Unit,False
+1,M00559,IDC Adapter PCB & Ribbon - 10-pin - 90°,4.00,M00148,EVO - Control Unit,False
+1,M01070,Insulated Crimp Bootlace Ferrule,4.00,M00148,EVO - Control Unit,False
+1,M00620,EVO - Limit Switches PCB Assembly,1.00,M00148,EVO - Control Unit,True
+2,M00714,PCB Custom for CNC Limit Switches,1.00,M00620,EVO - Limit Switches PCB Assembly,False
+2,M00841,"ALL - Tapped XLR 3 pole female panel, vertical PCB",4.00,M00620,EVO - Limit Switches PCB Assembly,True
+3,M00917,"XLR 3 pole female panel, vertical PCB",4.00,M00841,"ALL - Tapped XLR 3 pole female panel, vertical PCB",False
+2,M00790,Screw 2 Way PCB Terminal Block 5mm Pitch,1.00,M00620,EVO - Limit Switches PCB Assembly,False
+2,M00791,Screwless 4 Way PCB Terminal Block 3.5mm Pitch,1.00,M00620,EVO - Limit Switches PCB Assembly,False
+1,M00407,Coloured Washer M3 - Blue,2.00,M00148,EVO - Control Unit,False
+1,M00408,Coloured Washer M3 - Green,2.00,M00148,EVO - Control Unit,False
+1,M00409,Coloured Washer M3 - Red,2.00,M00148,EVO - Control Unit,False
+1,M00410,Coloured Washer M3 - Yellow,2.00,M00148,EVO - Control Unit,False
+1,M00718,PWM to Analog Voltage Converter 0-10V,1.00,M00148,EVO - Control Unit,False
