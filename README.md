@@ -26,7 +26,7 @@ The design files can also be viewed in web browsers using these links:
 
 - [Evo S](https://a360.co/3XHU1ST)
 - [Evo M](https://a360.co/437BPmZ)
-- [Evo L](https://a360.co/3JG87OL)
+- [Evo L](https://a360.co/49noRHT)
 - [Evo Control Unit](https://a360.co/45p6r7A)
 
 ## Community
